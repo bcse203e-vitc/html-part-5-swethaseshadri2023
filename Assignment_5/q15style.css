@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.gradient-header {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.overlay h1, .overlay p {
+    color: white;
+    margin: 0;
+}

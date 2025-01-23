@@ -1,0 +1,36 @@
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cen{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    text-align: center;
+    padding-top: 200px;
+    padding-left: 300px;
+}
+button{
+    padding: 30px 30px;
+    
+}
+.b1{
+    box-shadow: 5px 10px;
+    background-color: aquamarine;
+
+}
+.b2{
+    border:  3px solid black;
+    background-color: blueviolet;
+}
+.b2:hover{
+    border: 3px solid red;
+}
+.b3{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgb(62, 31, 71) 5%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+@media screen {
+    .main-content{
+        flex-direction: column;
+    }
+}

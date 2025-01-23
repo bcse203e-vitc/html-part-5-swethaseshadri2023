@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+
+section {
+    padding: 100px 20px;
+    height: 100vh;
+}
+
+#section1 { background-color: lightcoral; }
+#section2 { background-color: lightblue; }
+#section3 { background-color: lightgreen; }

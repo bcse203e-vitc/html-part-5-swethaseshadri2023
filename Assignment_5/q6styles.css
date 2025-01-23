@@ -1,0 +1,29 @@
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+}
+header{
+    background-color: aquamarine;
+    animation: mine 3s infinite;
+}
+@keyframes mine{
+    0%{top:0px;background-color: aquamarine;width: 100px;}
+    100%{top:100px;background-color: rgb(18, 81, 60);width: 200px;}
+}
+.box{
+    padding: 30px 30px;
+}
+.trans{
+    width: 100px;
+    padding: 30px 30px;
+    transition: width 2s;
+}
+.trans:hover{
+    width: 200px;
+}
+@media screen {
+    .main-content{
+        flex-direction: column;
+    }
+}
